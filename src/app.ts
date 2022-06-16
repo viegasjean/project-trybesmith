@@ -2,7 +2,7 @@ import express from 'express';
 import OrderController from './controllers/Order.controller';
 import ProductController from './controllers/Product.controller';
 import UserController from './controllers/User.controller';
-import authMiddleware from './middlewares/auth.middleare';
+// import authMiddleware from './middlewares/auth.middleare';
 import validationProduct from './middlewares/products.middleware';
 import validationUser from './middlewares/users.middleware';
 
