@@ -22,4 +22,6 @@ app.post('/users', validationUser, userController.create);
 
 app.get('/orders', orderController.getAll);
 
+app.post('/login', userController.getUser);
+
 export default app;
